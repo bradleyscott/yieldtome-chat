@@ -1,5 +1,5 @@
 {
-  "name": "yieldtome Chat",
+  "name": "yieldtome-chat",
   "private": true,
   "version": "0.0.0",
   "description": "A RESTful service backed by MongoDB that allows the exchange of messages between yieldto.me delegates",
