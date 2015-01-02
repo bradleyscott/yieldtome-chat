@@ -47,7 +47,7 @@ module.exports.cors = {
   *                                                                          *
   ***************************************************************************/
 
-  origin: 'http://localhost:8000,https://beta.yieldto.me,https://test.yieldto.me',
+  origin: 'http://localhost:8000,https://beta.yieldto.me,https://test.yieldto.me,http://test.yieldto.me',
 
   /***************************************************************************
   *                                                                          *
