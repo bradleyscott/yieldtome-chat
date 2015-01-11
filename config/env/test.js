@@ -18,7 +18,7 @@ module.exports = {
    ***************************************************************************/
 
     yieldtome: {
-        host: 'api-test.yieldto.me',
+        host: 'test-api.yieldto.me',
         port: '80'
     },
 
