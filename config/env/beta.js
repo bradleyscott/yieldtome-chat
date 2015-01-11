@@ -11,9 +11,15 @@
  */
 
 module.exports = {
-    
+
+    ssl: {
+     ca: require('fs').readFileSync(__dirname + '/ssl/2b13885ad06d09.crt'),
+     key: require('fs').readFileSync(__dirname + '/ssl/key.pem'),
+     cert: require('fs').readFileSync(__dirname + '/ssl/cert.pem')
+   },
+
     yieldtome: {
-        host: 'test-api.yieldto.me',
+        host: 'beta-api.yieldto.me',
         port: '80'
     },
 
@@ -26,7 +32,7 @@ module.exports = {
             adapter: 'sails-mongo',
             host: 'localhost',
             port: 27017,
-            database: 'yieldtome-chat-test'
+            database: 'yieldtome-chat'
         }
     },
 
