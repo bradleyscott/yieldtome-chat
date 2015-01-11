@@ -12,26 +12,25 @@
 
 module.exports = {
 
+    /***************************************************************************
+     * Set the default database connection for models in the development       *
+     * environment (see config/connections.js and config/models.js )           *
+     ***************************************************************************/
     yieldtome: {
         host: 'localhost',
         port: '61353'
     },
 
     connections: {
-        dockerMongodb: {
+        mongodb: {
             adapter: 'sails-mongo',
             host: '192.168.59.103',
             port: 27017,
-            database: 'yieldtome_chat'
+            database: 'yieldtome-chat-test'
         }
     },
 
-    /***************************************************************************
-     * Set the default database connection for models in the development       *
-     * environment (see config/connections.js and config/models.js )           *
-     ***************************************************************************/
-
     models: {
-        connection: 'dockerMongodb'
+        connection: 'mongodb'
     }
 };

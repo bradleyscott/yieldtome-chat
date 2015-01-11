@@ -39,7 +39,6 @@ module.exports = function(req, res, next) {
         }).on('error', function(err) {
             var message = 'A problem occured when trying to authenticate with yieldto.me. ' + err;
             sails.log(message);
-            return res.forbidden(message);
         });
     }
 }

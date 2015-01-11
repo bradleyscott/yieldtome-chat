@@ -65,20 +65,6 @@ module.exports.connections = {
   //   // database: 'your_mongo_db_name_here'
   // },
 
-  // dockerMongodb: {
-  //   adapter: 'sails-mongo',
-  //   host: '192.168.59.103',
-  //   port: 27017,
-  //   database: 'yieldtome_chat'
-  // },
-
-  // localMongodb: {
-  //   adapter: 'sails-mongo',
-  //   host: 'localhost',
-  //   port: 27017,
-  //   database: 'yieldtome_chat'
-  // }
-
   /***************************************************************************
   *                                                                          *
   * PostgreSQL is another officially supported relational database.          *

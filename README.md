@@ -1,3 +1,3 @@
-# yieldtome_chat
+# stuff
 
 a [Sails](http://sailsjs.org) application

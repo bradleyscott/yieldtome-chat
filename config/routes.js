@@ -33,7 +33,7 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': {
-    view: '404'
+    view: 'homepage'
   },
 
   /***************************************************************************
@@ -45,7 +45,6 @@ module.exports.routes = {
   * for configuration options and examples.                                  *
   *                                                                          *
   ***************************************************************************/
-
   'get /messagesBetween/:attendeeOneID/and/:attendeeTwoID': {
     controller: 'DirectMessageController',
     action: 'messagesBetween'

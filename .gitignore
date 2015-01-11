@@ -40,8 +40,6 @@
 ################################################
 
 config/local.js
-# config/env/development.js
-# config/env/production.js
 
 
 
@@ -118,5 +116,3 @@ npm-debug.log
 nbproject
 .idea
 .node_history
-
-.editorconfig
