@@ -24,7 +24,14 @@ module.exports = function(req, res, next) {
             }
         };
 
-        var http = require('http');
+        var http;
+        if(options.port = '443') {
+            http = require('https');
+        }
+        else {
+            http = require('http');            
+        };
+
         http.get(options, function(response) {
 
             if (response.statusCode == '200') {
