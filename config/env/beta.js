@@ -19,6 +19,7 @@ module.exports = {
    },
 
     yieldtome: {
+        ssl: true,
         host: 'beta-api.yieldto.me',
         port: '443'
     },

@@ -13,6 +13,7 @@
 module.exports = {
     
     yieldtome: {
+        ssl: false,
         host: 'test-api.yieldto.me',
         port: '80'
     },

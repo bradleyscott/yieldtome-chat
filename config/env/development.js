@@ -17,6 +17,7 @@ module.exports = {
      * environment (see config/connections.js and config/models.js )           *
      ***************************************************************************/
     yieldtome: {
+        ssl: false,
         host: 'localhost',
         port: '61353'
     },

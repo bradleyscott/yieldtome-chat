@@ -25,7 +25,7 @@ module.exports = function(req, res, next) {
         };
 
         var http;
-        if(options.port = '443') {
+        if(sails.config.yieldtome.ssl == true) {
             http = require('https');
         }
         else {
