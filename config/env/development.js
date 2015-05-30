@@ -25,7 +25,7 @@ module.exports = {
     connections: {
         mongodb: {
             adapter: 'sails-mongo',
-            host: '192.168.59.103',
+            host: 'localhost',
             port: 27017,
             database: 'yieldtome-chat-test'
         }
