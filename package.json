@@ -2,10 +2,10 @@
   "name": "yieldtome-chat",
   "private": true,
   "version": "0.0.0",
-  "description": "A RESTful service backed by MongoDB that allows the exchange of messages between yieldto.me delegates",
+  "description": "A RESTful service backed by MongoDB that allows the exchange of messages between yieldto.me delegates and event administrators",
   "keywords": [],
   "dependencies": {
-    "sails": "~0.10.5",
+    "sails": "~0.11.0",
     "sails-disk": "~0.10.0",
     "rc": "~0.5.0",
     "include-all": "~0.1.3",
